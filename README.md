@@ -33,24 +33,13 @@ The system demonstrates how IoT data can be combined with Machine Learning to id
 
 ## 🏗️ System Architecture
 
-```text
-ESP32 / Wokwi
-     │
-     │ Sensor Data
-     ▼
-   MQTT Broker
-     │
-     ▼
-Python MQTT Receiver
-     │
-     ▼
-CSV Data Storage
-     │
-     ▼
-Random Forest ML Model
-     │
-     ▼
-Streamlit Dashboard
-     │
-     ▼
-AI Pattern Detection
+```mermaid
+flowchart TD
+    A[ESP32 / Wokwi Sensor Simulation] -->|Sensor Data| B[MQTT Broker]
+    B -->|MQTT Message| C[Python MQTT Receiver]
+    C -->|Store Readings| D[CSV Data Storage]
+    D --> E[Random Forest ML Model]
+    E -->|Pattern Prediction| F[Streamlit Dashboard]
+    F --> G[AI Pattern Detection]
+    G --> H[Normal Pattern]
+    G --> I[Unusual Pattern]

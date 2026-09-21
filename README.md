@@ -35,7 +35,6 @@ The system demonstrates how IoT data can be combined with Machine Learning to id
 ![Smart AI Health Monitoring Toilet Dashboard](dashboard-preview.png)
 
 
-
 ## 🏗️ System Architecture
 
 ```mermaid

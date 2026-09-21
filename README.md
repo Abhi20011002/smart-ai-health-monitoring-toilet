@@ -30,6 +30,11 @@ The system demonstrates how IoT data can be combined with Machine Learning to id
 - 🌐 Cloud deployment using Streamlit Community Cloud
 
 ---
+## 🖥️ Dashboard Preview
+
+![Smart AI Health Monitoring Toilet Dashboard](dashboard-preview.png)
+
+
 
 ## 🏗️ System Architecture
 
